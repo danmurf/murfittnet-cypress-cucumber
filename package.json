@@ -11,5 +11,8 @@
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true
+  },
+  "scripts": {
+    "test": "cypress run --spec cypress/integration/*"
   }
 }
